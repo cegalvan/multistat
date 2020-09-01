@@ -1,0 +1,53 @@
+{
+  "name": "michaeldmoore-multistat-panel",
+  "version": "1.4.1",
+  "description": "Multistat panel for Grafana",
+  "main": "README.md",
+  "scripts": {
+    "build": "grunt"
+  },
+  "author": "Michael Moore",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeldmoore/multistat-panel.git"
+  },
+  "keywords": [
+    "multistat",
+    "grafana",
+    "singlestat",
+    "plugin",
+    "panel"
+  ],
+  "bugs": {
+    "url": "https://github.com/michaeldmoore/michaeldmoore-multistat-panel/issues"
+  },
+  "homepage": "https://github.com/michaeldmoore/michaeldmoore-multistat-panel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^6.6",
+    "eslint-config-airbnb": "^18",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "grunt": "^1.1.0",
+    "grunt-babel": "^7.0.0",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "~4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-execute": "~0.2.2",
+    "grunt-systemjs-builder": "^1.0.0",
+    "load-grunt-tasks": "^5.1.0"
+  },
+  "dependencies": {
+    "@grafana/data": "^7.1.0",
+    "@grafana/runtime": "^7.1.0",
+    "lodash": "^4.17.19"
+  }
+}
